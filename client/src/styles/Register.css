@@ -1,0 +1,64 @@
+.Register {
+  height: 100vh;
+  background-color: #8d587d;
+  padding: 0 1rem;
+}
+
+.Register h4 {
+  padding: 3rem 0;
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+}
+.error {
+  color: pink;
+}
+.wrapper {
+  background-color: white;
+  margin: 0 auto;
+}
+.my_file {
+  margin: 2rem 0;
+  background-color: #8d587d;
+}
+.form-control {
+  background-color: #8d587d;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+label {
+  color: whitesmoke;
+}
+.input {
+  background: #8d587d;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.reg-btn {
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 40%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  padding: 1rem;
+  color: #8d587d;
+  font-weight: bold;
+}
+.redirect {
+  color: whitesmoke;
+  text-align: center;
+}
+.redirectbtn {
+  text-decoration: none;
+  border-bottom: 2px solid whitesmoke;
+  font-size: 17px;
+  font-weight: bold;
+  color: whitesmoke;
+}

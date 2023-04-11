@@ -1,0 +1,14 @@
+.Footer {
+  background-image: linear-gradient(
+    to right top,
+    #af88a0,
+    #b380a1,
+    #8d587d,
+    #68325b,
+    #450a3b
+  );
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+}

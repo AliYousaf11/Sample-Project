@@ -1,0 +1,41 @@
+.grid-container {
+  height: 100vh;
+}
+
+.hero-text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  margin: 3rem 0;
+}
+.hero-text h3 {
+  color: #8d587d;
+  font-weight: bold;
+}
+.hero-text p {
+  color: rgb(142, 136, 136);
+}
+
+.hero-text h4 {
+  color: rgb(142, 136, 136);
+}
+.about-btn {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 1rem;
+}
+.about-btn > button {
+  outline: none;
+  border: none;
+  padding: 0.59rem;
+  margin: 0.3rem;
+  border-radius: 7px;
+  color: whitesmoke;
+  background-color: #8d587d;
+  justify-content: space-between;
+}
+.about-btn > button > .link {
+  text-decoration: none;
+  color: whitesmoke;
+}
